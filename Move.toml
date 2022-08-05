@@ -1,0 +1,18 @@
+[package]
+name = "tickets"
+version = "0.0.0"
+
+[dependencies]
+# MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir="aptos-move/framework/aptos-framework", rev = "0b834fc218648d759e93a7d61a432d0dce6c9946" }
+
+
+[addresses]
+AptosFramework = "0x1"
+# std =  "0x1"
+Ticket = "_"
+
+[dev-addresses]
+Ticket = "0xe110"
+
+
